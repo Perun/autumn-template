@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head profile="http://gmpg.org/xfn/11">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Autumn Template</title>
+    <meta name="description" content="..." />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+</head>
+
+<body class="home page-template-default page page-id-4">
+    <div id="container">
+        <div id="kopfbereich">
+            <div class="logo"><a href="/" title="Back to Home">Autumn <span>Template</span></a></div>
+            <div class="unterzeile">Green HTML Template</div>
+        </div><!-- End #kopfbereich -->
+
+        <div id="mitte">
+            <div id="inhalt"><!-- the content area -->
+                <h1 class="storytitle">The Name of your Website</h1>
+                <div class="der-beitrag"><!-- inner content -->
+                    <p>Lorem ipsum dolor <a href="#">sit amet</a>, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet <em>clita kasd</em> gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. <strong>Lorem ipsum</strong> dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+
+                    <p><img src="http://img.dummy-image-generator.com/nature/dummy-530x300-Waterfalls.jpg" alt="Dummy Image"></p>
+
+                    <p>Lorem ipsum dolor <a href="#">sit amet</a>, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet <em>clita kasd</em> gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. <strong>Lorem ipsum</strong> dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                </div> <!-- End .der-beitrag (inner content) -->
+
+
+                    <div class="blog-feedback2"></div><!-- /.blog-feedback -->
+
+                    </div><!-- Ende #inhalt -->
+    <!-- Sidebar -->
+            <div id="sidebar">
+                <div class="sidebar-innen">
+                    <div class="sidebar-rest">
+                        <h3>Die Seite</h3>
+                        <ul>
+                            <li class="m1"><a href="/">Home</a></li>
+                            <li class="m2"><a href="#">Blog</a></li>
+                        </ul>
+
+                        <div class="widget">
+                            <h3>Lorem ipsum</h3>
+                            <ul>
+                                <li class="m3"><a href="#">Ipsem lorum</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="sidebar-empfehlungen">
+                        <h3>My work</h3>
+                        <p><a href="#" rel="nofollow"><img src="http://img.dummy-image-generator.com/abstract/dummy-250x350-Floral.jpg" width="250" height="350" alt="..." /></a></p>
+                    </div>
+
+                </div>
+                <div class="sunten"></div>
+            </div><!-- End #sidebar -->
+            <div class="clearer"><!--hebt die floats von #inhalt und #sidebar auf--></div>
+        </div><!-- End #mitte -->
+
+        <div id="footer">
+            <div id="footer1">
+                <h3>Impress</h3>
+                <ul>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Copyright</a></li>
+                </ul>
+            </div>
+            <div id="footer2">
+                <h3>Social Media</h3>
+                <ul>
+                    <li><a href="#">RSS Feed</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">YouTube</a></li>
+                </ul>
+            </div>
+            <div class="clearer"></div>
+        </div><!-- End #footer -->
+
+    <nav><div class="pagemenu"><ul id="menu-hauptnavi" class="menu"><li><a href="#">Main topic 1</a>
+    <ul  class="sub-menu">
+        <li><a href="#">Your subtopic 1</a></li>
+        <li><a href="#">Subtopic 2</a></li>
+    </ul>
+    </li>
+    <li><a href="#">Main topic 2</a></li>
+    <li><a href="#">Main topic 3</a></li>
+    <li ><a href="#">Main topic 4</a></li>
+    <li><a href="#">Main topic 5</a>
+    <ul  class="sub-menu">
+        <li><a href="#">Subtopic</a></li>
+        <li><a href="#">Subtopic xyz</a></li>
+    </ul>
+    </li>
+    <li ><a href="#">Main topic 6</a></li>
+    </ul></div></nav>
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script>
+     // DOM ready
+     $(function() {
+       // To make dropdown actually work
+      $("nav select").change(function() {
+        window.location = $(this).find("option:selected").val();
+      });
+     });
+    </script>
+
+    <nav>
+        <select class="mobile-navi">
+            <option select="selected">Go to&hellip;</option>
+            <option value="#" class="menu-eltern">Main topic 1</option>
+                <option value="#">- Your Subtopic 2</option>
+                <option value="#">- Subtopic 2</option>
+            <option value="#" class="menu-eltern">Main topic 2</option>
+                <option value="#">- Your Subtopic 3</option>
+                <option value="#">- Subtopic 4</option>
+        </select>
+    </nav>
+
+    </div><!-- End #container -->
+
+</body>
+
+</html>
