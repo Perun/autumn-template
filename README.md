@@ -10,4 +10,6 @@ The template is as usable as it is, you don't have to install anything extra.
 
 If you have any questions or need help, just let me know.
 
+– Vladimir Simović
+
 ![](https://steemitimages.com/0x0/https://res.cloudinary.com/hpiynhbhq/image/upload/v1515555673/xsqbbicwz3pqq0gc1xao.jpg)
